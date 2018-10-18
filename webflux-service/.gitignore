@@ -1,0 +1,24 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+/out/
+/.idea/inspectionProfiles/
+/.idea/libraries/
+/.idea/modules/
+/.idea/gradle.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/dbnavigator.xml
+/.idea/vcs.xml
+/.idea/uiDesigner.xml
+
+/.idea/workspace.xml
+/gradle.properties
+
+!/.idea/saveactions_settings.xml
+!/.idea/compiler.xml

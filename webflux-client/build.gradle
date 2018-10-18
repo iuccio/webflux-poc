@@ -1,0 +1,17 @@
+group = 'com.aro.webfluxclient'
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+dependencies {
+	compile project(':model')
+	
+	implementation('org.springframework.boot:spring-boot-starter-webflux')
+	
+	compileOnly 'org.projectlombok:lombok:1.18.2'
+	
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	
+	testImplementation('io.projectreactor:reactor-test')
+}
